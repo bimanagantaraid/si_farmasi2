@@ -1,0 +1,69 @@
+.loginpage{
+    color: #fff;
+    background: #ECF0F5;
+}
+.homepage{
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.menu{
+    font-size: 12px;
+}
+.samping{
+    min-width:260px;
+    background-color: white;
+}
+.halaman{
+    background-color: white;
+    border-radius: 5px;
+}
+.login-form {
+    width: 450px;
+    margin: 115px auto;
+    text-align: center;
+}
+.login-form h2 {
+    margin: 10px 0 25px;
+}
+.login-form form {
+    color: #7a7a7a;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    background: #fff;
+    padding: 30px;
+}
+.login-form .btn {        
+    font-size: 16px;
+    font-weight: bold;
+    background: #4680FF;
+    border: none;
+    outline: none !important;
+}
+.login-form .btn:hover, .login-form .btn:focus {
+    background: #2389cd;
+}
+.form-control {
+    min-height: 41px;
+    background: #f2f2f2;
+    box-shadow: none !important;
+    border: transparent;
+}
+.form-control:focus {
+    background: #e2e2e2;
+}
+.form-control, .btn {        
+    border-radius: 2px;
+}
+
+.title-puskesmas{
+    margin-top: 35px;
+    margin-left: 38px;
+}
+
+@media screen and (max-width:850px) {
+    .title-puskesmas{
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+}
